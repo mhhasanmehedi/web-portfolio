@@ -73,6 +73,7 @@ section{
 .full-stack,.baby-developer::before{
     content: "";
     background-color: white;
+    opacity: .5;
 }
 .full-stack{
     border-left:7px solid;
