@@ -70,7 +70,7 @@ section{
     min-height: 300px;
     z-index: 1;
 }
-.full-stack::before,.baby-developer::before{
+.full-stack,.baby-developer::before{
     content: "";
     background-color: white;
 }
