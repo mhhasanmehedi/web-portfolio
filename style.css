@@ -1,10 +1,16 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: dimgray;
 }
+h1,h2,h3,h4,h5,h6{
+    color: #000000;
+}
+/* ======================top-section===================== */
 h1{
     font-size: 50px;
 }
-.name-highlight{
+.name-highlight,.content-highlight{
     color: #FFA501;
 }
 .half-width{
@@ -15,4 +21,71 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+section{
+    height: 600px;
+    margin-bottom: 100px;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.link-button{
+    background: #ff9773;
+    background: -moz-linear-gradient(45deg,  #ff9773 0%, #ff694c 100%);
+    background: -webkit-linear-gradient(45deg,  #ff9773 0%,#ff694c 100%);
+    background: linear-gradient(45deg,  #ff9773 0%,#ff694c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9773', endColorstr='#ff694c',GradientType=1 );
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    margin-top: 8px;
+    display: inline-block;
+}
+/* ========================dream-area================= */
+
+.dream-area h2{
+    font-size: 40px;
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+/* =====================Experience area================ */
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: -50px;
+}
+.full-stack,.baby-developer{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    min-height: 300px;
+    z-index: 1;
+}
+.full-stack,.baby-developer::before{
+    content: "";
+    background-color: white;
+}
+.full-stack{
+    border-left:7px solid;
+    border-image: linear-gradient(to bottom,#ED2F00,#FF6A4D); 
+    border-image-slice: 1;
+}
+.baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(to bottom,#000CFF,#00F8FF);
+    border-image-slice: 1;
+}
+/* ==========================footer area================ */
+footer p{
+    text-align: center;
+    font-size: 90%;
 }
