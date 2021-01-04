@@ -70,10 +70,9 @@ section{
     min-height: 300px;
     z-index: 1;
 }
-.full-stack,.baby-developer::before{
+.full-stack::before,.baby-developer::before{
     content: "";
     background-color: white;
-    opacity: .5;
 }
 .full-stack{
     border-left:7px solid;
